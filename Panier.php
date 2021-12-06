@@ -21,13 +21,16 @@
         <a href="#compte">Votre Compte</a>
       </div>
 
- 
- <h2>VOTRE PANIER</h2><br>
+ <div id="panier">
+ <h2>VOTRE PANIER   <img src="images/shopping-bag.png" alt="LogoPanier"> </div>
+
+ </h2><br>
+ <p> Voici les ar
  <table>
     
-    <tr><td>Article 1 : </td>
-<td>Article 2: </td>
-    </tr>
+    <tr><td>Article 1 : </td></tr>
+<tr><td>Article 2: </td></tr>
+    
  </table>
  
  <!-- Here is the footer area -->
