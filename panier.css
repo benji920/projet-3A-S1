@@ -6,18 +6,19 @@ h2{
  }
 
 
+#total{
 
- table{
-border : solid;
-
- }
+font-weight: bold;
+}
  #container{
+
 overflow: auto;      
 }
  #titrePanier{
 float :left; 
 width: 60%;
 text-align: right;
+
 }
 
 #panier{

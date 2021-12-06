@@ -33,32 +33,36 @@
 
  <br>
 
-<table class=”table table-hover”>
- <thead>
- <tr>
- <th>
-#</th>
- <th>First Name</th>
- <th>Last Name</th>
- </tr>
-Bootstrap Cheat Sheet 40
-WebsiteSetup.org - Bootstrap Cheat Sheet
- </thead>
- <tbody>
- <tr>
- <th scope=”row”>1</th>
- <td>Mark</td>
- <td>Twain</td>
- </tr>
- <tr>
- <th scope=”row”>2</th>
- <td>Henry</td>
- <td>James</td>
- </tr>
- </tbody>
+<table class="table table-hover table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Numéro</th>
+      <th scope="col">Article</th>
+      <th scope="col">Photo</th>
+      <th scope="col">Description</th>
+      <th scope="col">Prix</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>DESCRIPTION</td>
+      <td>PRIX</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+   
+  </tbody>
 </table>
  
-    
+   <p id="total">TOTAL A PAYER </p>
+ <!-- Afficher la somme des prix -->
 
  
  <!-- Here is the footer area -->
