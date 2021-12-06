@@ -10,7 +10,7 @@
 
  <!-- Here is the logo area -->
  <div id="header">
- <img src="images/logo_paris.png" alt="Logo">
+ <img src="logo_paris.png" alt="Logo">
  </div>
 
     <div class="topnav">
@@ -20,6 +20,29 @@
         <a href="Panier.html">Panier</a>
         <a href="#compte">Votre Compte</a>
       </div>
+
+      <?php 
+      
+      $servername = 'localhost';
+      $username = 'root';
+      $password = '';
+      
+      //On établit la connexion
+      $conn = mysqli_connect($servername, $username, $password);
+      
+      //On vérifie la connexion
+      if(!$conn){
+          die('Erreur : ' .mysqli_connect_error());
+      }
+      echo 'Connexion réussie';
+      
+      $sql= "SELECT * FROM articles";
+      while ($data=mysqli_fetch_assoc($result)){
+          
+      }
+
+      
+      ?>
 
  <!-- Here is the footer area -->
  <div id="footer">
