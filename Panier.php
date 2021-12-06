@@ -22,7 +22,7 @@
         <a href="ToutParcourir.php">Tout Parcourir</a>
         <a href="#notif">Notifications</a>
         <a class="active" href="#Panier">Panier</a>
-        <a href="#compte">Votre Compte</a>
+        <a href="Compte.php">Votre Compte</a>
       </div>
 
 <div id="container"> 

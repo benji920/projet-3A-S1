@@ -1,0 +1,99 @@
+body { background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   
+   }
+   table{
+     border: 1px solid black;
+   border-collapse: collapse;
+   }
+   td{
+    border: 1px solid black;
+    padding: 5px 20px 5px 20px;
+  }
+   h2 { 
+    text-align: center;
+    color:#003366;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   }
+   h3 {  
+    background-color:#ffffcc;
+    color:blue;
+   }
+   dd { font-style:italic;
+    font-size:.90em;
+    line-height:200%;
+   }
+   #header {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
+   }
+   .contact { font-family: "Times New Roman", serif;
+    font-size: .90em;
+    font-weight:bold;
+   }
+   #nav { font-weight:bold;
+    font-size: 1.2em;
+
+   }
+   #footer { 
+      
+    font-size: .60em;
+    font-style: italic;
+    background-color: black;
+    padding: 20px;
+    
+    bottom: 0;
+   text-align: center;
+   color: white;
+   margin-top: 10px;
+    
+   }
+   #footer a { 
+      
+   color: white;
+    
+   }
+
+   #wrapper{
+    margin: auto;
+    width: 100%;
+   
+    
+
+   }
+   .topnav {
+  
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+   
+    border-bottom: solid;
+    margin-bottom: 40px;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    
+    width: 100%;
+    color:black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
