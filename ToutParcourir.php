@@ -18,7 +18,7 @@
     <div class="topnav">
         <a href="Accueil.html">Accueil</a>
         <a class="active" href="ToutParcourir.php">Tout Parcourir</a>
-        <a href="#notif">Notifications</a>
+        <a href="Notifications.php">Notifications</a>
         <a href="Panier.html">Panier</a>
         <a href="#compte">Votre Compte</a>
       </div>
