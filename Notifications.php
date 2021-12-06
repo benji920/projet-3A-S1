@@ -37,12 +37,27 @@
       if(!$db_handle){
           die('Erreur : ' .mysqli_connect_error());
       }
-      $sql= "SELECT * FROM articles WHERE classe='article régulier'";
+      $sql= "SELECT DISTINCT marque FROM articles";
       $result = mysqli_query($db_handle, $sql);
-    
+     echo "<FORM> <SELECT name='nom' size='1'>";
+      while ($data=mysqli_fetch_assoc($result)){
+        
+        
+       echo " <OPTION>",$data['marque'];
 
- 
+    }
+    echo "        </SELECT>
+    </FORM>";
       ?>
+      <FORM>
+<SELECT name="nom" size="1">
+<OPTION>lundi
+<OPTION>mardi
+<OPTION>mercredi
+<OPTION>jeudi
+<OPTION>vendredi
+</SELECT>
+</FORM>
 
  <div id="footer">
     Copyright &copy; 2021 Paris Shopping <br>
