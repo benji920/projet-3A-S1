@@ -23,7 +23,12 @@
 
  
  <h2>VOTRE PANIER</h2><br>
- 
+ <table>
+    
+    <tr><td>Article 1 : </td>
+<td>Article 2: </td>
+    </tr>
+ </table>
  
  <!-- Here is the footer area -->
  <div id="footer">
