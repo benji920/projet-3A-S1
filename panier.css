@@ -2,21 +2,38 @@ h2{
 	 color:#003366;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
+    
  }
-table {
-  
+
+
+
+ table{
+border : solid;
+
+ }
+ #container{
+overflow: auto;      
 }
-#container{
-  /*padding: 150px;*/
-      text-align: center;
+ #titrePanier{
+float :left; 
+width: 60%;
+text-align: right;
+}
+
+#panier{
+  overflow: auto;
+}
+
+#titrePanier,#panier{
+
+vertical-align: top;
+display: inline-block;
 
 }
-#panier{
-    /*margin: 10px;
-    margin-bottom: 20px;*/
-   /*float : right;*/
-  margin-top : auto;
+#titrePanier2{
+
 }
+
 #header{
 	 text-align: center;
     margin: 10px;
