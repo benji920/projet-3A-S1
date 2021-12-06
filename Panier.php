@@ -10,7 +10,7 @@
 
  <!-- Here is the logo area -->
  <div id="header">
- <img src="logo_paris.png" alt="Logo">
+ <img src="images/logo_paris.png" alt="Logo">
  </div>
 
     <div class="topnav">
