@@ -20,7 +20,7 @@
         <a class="active" href="ToutParcourir.php">Tout Parcourir</a>
         <a href="Notifications.php">Notifications</a>
         <a href="Panier.html">Panier</a>
-        <a href="#compte">Votre Compte</a>
+        <a href="Compte.php">Votre Compte</a>
       </div>
 
       <?php 
