@@ -21,11 +21,13 @@
         <a href="#compte">Votre Compte</a>
       </div>
 
- <div id="panier">
- <h2>VOTRE PANIER   <img src="images/shopping-bag.png" alt="LogoPanier"> </div>
+<div id="container"> 
 
- </h2><br>
- <p> Voici les ar
+ <div id="panier"><img src="images/shopping-bag.png" alt="LogoPanier" width="100px" >   </div> 
+ <h2>VOTRE PANIER </h2>
+</div>
+ <br>
+
  <table>
     
     <tr><td>Article 1 : </td></tr>
