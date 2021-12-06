@@ -95,3 +95,19 @@ body { background-color: white;
     background-color: grey;
     color: white;
   }
+  * {box-sizing:border-box}
+
+  #myCarousel{
+    width: 50%;
+  }
+
+  #texte{
+    margin-top: 20px;
+  }
+  p{
+    font-size:20px;
+  }
+
+  #droite{
+    height: 600px;
+  }
