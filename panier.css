@@ -5,6 +5,18 @@ h2{
     text-align: center;
 }
 #header{
-	text-align: center;
+	 text-align: center;
+    margin: 10px;
+    margin-bottom: 20px;
 
 }
+  .topnav {
+  
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+   
+    border-bottom: solid;
+    margin-bottom: 40px;
+    
+  }
