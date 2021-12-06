@@ -21,9 +21,19 @@
         <a href="#compte">Votre Compte</a>
       </div>
 
- 
- <h2>VOTRE PANIER</h2><br>
- 
+<div id="container"> 
+
+ <div id="panier"><img src="images/shopping-bag.png" alt="LogoPanier" width="100px" >   </div> 
+ <h2>VOTRE PANIER </h2>
+</div>
+ <br>
+
+ <table>
+    
+    <tr><td>Article 1 : </td></tr>
+<tr><td>Article 2: </td></tr>
+    
+ </table>
  
  <!-- Here is the footer area -->
  <div id="footer">
